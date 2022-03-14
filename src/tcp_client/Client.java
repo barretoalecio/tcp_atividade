@@ -26,7 +26,7 @@ public class Client {
 
 	private static Socket getSocketConnection() {
 		try {
-			return new Socket("localhost", 8080);
+			return new Socket("localhost", 3000);
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
