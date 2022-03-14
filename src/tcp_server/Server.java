@@ -9,7 +9,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Server {
-	final static ServerSocket serverSocket = getServerSocket(8080);
+	final static ServerSocket serverSocket = getServerSocket(3000);
 	final static Socket socket = getSocket();
 
 	final static PrintWriter printWriter = getPrintWriter();
